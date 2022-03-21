@@ -1,0 +1,35 @@
+.learn-border {
+  border-bottom: 10px solid rgb(255, 255, 179);
+  line-height: 4px;
+  width: 50%;
+  max-width: 150px;
+  list-style-type: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .learn-border {
+    width: fit-content;
+  }
+}
+.learn-border:hover {
+  border-bottom: 10px solid #fad400;
+}
+
+.learn-border-pink {
+  border-bottom: 10px solid #fdd7d4;
+  line-height: 4px;
+  width: 50%;
+  max-width: 150px;
+  list-style-type: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .learn-border-pink {
+    width: fit-content;
+  }
+}
+.learn-border-pink:hover {
+  border-bottom: 10px solid #fa6e5d;
+}
